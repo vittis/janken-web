@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import ioClient, { Socket } from "socket.io-client";
 
-const SOCKET_SERVER_URL = "http://localhost:2567";
+const SOCKET_SERVER_URL = "https://janken-api.herokuapp.com";
 
 interface SocketContextType {
   socket: Socket | null;
