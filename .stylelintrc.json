@@ -1,0 +1,9 @@
+{
+  "extends": ["stylelint-config-sass-guidelines", "stylelint-config-idiomatic-order"],
+  "rules": {
+    "max-empty-lines": 1,
+    "declaration-empty-line-before": "never",
+    "order/properties-alphabetical-order": null,
+    "selector-max-id": 1
+  }
+}

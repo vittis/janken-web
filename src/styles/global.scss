@@ -1,0 +1,27 @@
+html {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+#__next {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background: radial-gradient(ellipse at bottom center, #2a1a33 -50%, #110b13 100%) !important;
+}
+
+.particles-wrapper {
+  position: fixed;
+  z-index: -2;
+  width: 100%;
+  min-height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
